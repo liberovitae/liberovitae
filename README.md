@@ -37,13 +37,13 @@ A simple and modern community connectivity platform written with React/Material-
 
     
 #### Install & configure API
-* `git clone git@github.com:liberovitae/api.git`  
+* `git clone https://github.com/liberovitae/api.git`  
 * `cd api`
 * `yarn install`
 * Edit API `.env.*` files  
     
 #### Install & configure UI/Frontend
-* `git clone git@github.com:liberovitae/ui.git`  
+* `git clone https://github.com/liberovitae/ui.git`  
 * `cd ui`
 * `yarn install`
 * Edit UI `.env.*` files
