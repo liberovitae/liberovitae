@@ -1,4 +1,4 @@
-# liberovitae social connectivity platform
+# liberovitae community connectivity platform
 
 
 ![logo](/logofull.svg)
@@ -36,19 +36,23 @@ A simple and modern community connectivity platform written with React/Material-
 ## Installation
 
     
-Install & configure API
+#### Install & configure API
 * `git clone git@github.com:liberovitae/api.git`  
 * `cd api`
 * `yarn install`
 * Edit API `.env.*` files  
     
-Install & configure UI/Frontend
+#### Install & configure UI/Frontend
 * `git clone git@github.com:liberovitae/ui.git`  
-* `cd liberovitae/ui`
+* `cd ui`
 * `yarn install`
 * Edit UI `.env.*` files
 
-Run API server
+
+#### Generate VAPID Keys
+Generate VAPID keys for web push notifications at [vapidkeys.com](https://vapidkeys.com/) or run `yarn vapid` in the `api` directory then add the details to the `.env.*` files in both `api` and `ui` folders.
+
+#### Run API server
 
 Use the environment variable `FAKE_DATA=1` to populate database with randomised/fake data. The process will exit upon completion. See `api/handlers/faker.js` for more details.
 
@@ -56,7 +60,8 @@ Use the environment variable `FAKE_DATA=1` to populate database with randomised/
 * `cd api`
 * `NODE_ENV="development" yarn start`
 
-Run UI/Frontend
+#### Run UI/Frontend
+
 * `cd ui`
 * `NODE_ENV="development yarn start` 
 
